@@ -17,3 +17,5 @@ def callApiSbx(basepath, endpoint, token, method="GET", query="", CAIDRequired=F
     print('API request outcome: ' + str(response.status_code))
     if printBody:
         print(response.text)
+
+    return response

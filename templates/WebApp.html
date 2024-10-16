@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Account Data Widget</title>
+    <style>
+        body { font-family: Arial, sans-serif; }
+        table { width: 80%; margin: 20px auto; border-collapse: collapse; }
+        th, td { padding: 10px; border: 1px solid #ddd; text-align: center; }
+        th { background-color: #f2f2f2; }
+        .account-info { margin: 20px auto; text-align: center; }
+    </style>
+</head>
+<body>
+    <h1 style="text-align:center;">Account Data Widget</h1>
+
+    <div class="account-info">
+        <h2>Account Information</h2>
+        <p><strong>Account ID:</strong> {{ data['account']['accountId'] }}</p>
+        <p><strong>IBAN:</strong> {{ data['account']['iban'] }}</p>
+        <p><strong>Currency:</strong> {{ data['account']['currency'] }}</p>
+    </div>
+
+    <table>
+        <thead>
+            <tr>
+                <th>Balance Type</th>
+                <th>Balance Amount</th>
+                <th>Credit Limit Included</th>
+                <th>Reference Date</th>
+                <th>Last Change Date</th>
+            </tr>
+        </thead>
+        <tbody>
+            {% for balance in data['balances'] %}
+            <tr>
+                <td>{{ balance['balanceType']['balanceType'] }}</td>
+                <td>{{ balance['balanceAmount']['amount'] }} {{ balance['balanceAmount']['currency'] }}</td>
+                <td>{{ balance['creditLimitIncluded'] }}</td>
+                <td>{{ balance['referenceDate'] }}</td>
+                <td>{{ balance['lastChangeDateTime'] }}</td>
+            </tr>
+            {% endfor %}
+        </tbody>
+    </table>
+</body>
+</html>

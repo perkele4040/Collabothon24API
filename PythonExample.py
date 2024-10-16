@@ -1,3 +1,5 @@
+import json
+
 from getTokenSbx import getTokenSbxClientCredentials
 from ClientCredentials import ClientCredentials
 from callAPISbx import callApiSbx
@@ -15,7 +17,9 @@ basepath = "/accounts-api/21/v1"
 callApiSbx(basepath, "/info", token)
 
 #GET /accounts/accountID
-callApiSbx(basepath, "/accounts", token, query="130471100000EUR")
+response = callApiSbx(basepath, "/accounts", token, query="130471100000EUR")
+data = json.loads(response.text)
+print(data)
 
 
 #**************CORPORATE PAYMENTS*******************
