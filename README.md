@@ -6,4 +6,4 @@ callAPISbx - universal function for calling Sandbox stage of Commerzbank APIs.
 
 PythonExample - this file presents an example of using both aforementioned functions to call multiple Commerzbank APIs.
 
-See both files for a more detailed description.
+See files for a more detailed description.
