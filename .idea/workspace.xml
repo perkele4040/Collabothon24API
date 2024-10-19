@@ -4,15 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="85c5d9ec-af16-46bf-9a32-69ded0ad789a" name="Changes" comment="examples for 3 APIs added&#10;callAPISbx upgraded">
-      <change afterPath="$PROJECT_DIR$/TestWidget.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WebApp.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/WebApp.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+    <list default="true" id="85c5d9ec-af16-46bf-9a32-69ded0ad789a" name="Changes" comment="added Web server based on Flask&#10;added HTML template for displaying json data from Accounts Foreign Units&#10;(todo) add extracting json directly from API output">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/PythonExample.py" beforeDir="false" afterPath="$PROJECT_DIR$/PythonExample.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/callAPISbx.py" beforeDir="false" afterPath="$PROJECT_DIR$/callAPISbx.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/getTokenSbx.py" beforeDir="false" afterPath="$PROJECT_DIR$/getTokenSbx.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -39,22 +35,22 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "DefaultHtmlFileTemplate": "HTML File",
-    "Python.1.executor": "Run",
-    "Python.PythonExample.executor": "Run",
-    "Python.TestWidget.executor": "Run",
-    "Python.WebApp.executor": "Run",
-    "Python.getTokenSbx.executor": "Run",
-    "Python.test.executor": "Run",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "master",
-    "ignore.virus.scanning.warn.message": "true",
-    "last_opened_file_path": "C:/Users/kobyl/PycharmProjects/perkele/.venv/PythonExample.py"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;DefaultHtmlFileTemplate&quot;: &quot;HTML File&quot;,
+    &quot;Python.1.executor&quot;: &quot;Run&quot;,
+    &quot;Python.PythonExample.executor&quot;: &quot;Run&quot;,
+    &quot;Python.TestWidget.executor&quot;: &quot;Run&quot;,
+    &quot;Python.WebApp.executor&quot;: &quot;Run&quot;,
+    &quot;Python.getTokenSbx.executor&quot;: &quot;Run&quot;,
+    &quot;Python.test.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/kobyl/PycharmProjects/perkele/.venv/PythonExample.py&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\kobyl\PycharmProjects\perkele" />
@@ -117,7 +113,15 @@
       <option name="project" value="LOCAL" />
       <updated>1728934700695</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="added Web server based on Flask&#10;added HTML template for displaying json data from Accounts Foreign Units&#10;(todo) add extracting json directly from API output">
+      <option name="closed" value="true" />
+      <created>1729114207765</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1729114207765</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -134,6 +138,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Sbx healthcheck example&#10;ClientCredentials grant type flow" />
     <MESSAGE value="examples for 3 APIs added&#10;callAPISbx upgraded" />
-    <option name="LAST_COMMIT_MESSAGE" value="examples for 3 APIs added&#10;callAPISbx upgraded" />
+    <MESSAGE value="added Web server based on Flask&#10;added HTML template for displaying json data from Accounts Foreign Units&#10;(todo) add extracting json directly from API output" />
+    <option name="LAST_COMMIT_MESSAGE" value="added Web server based on Flask&#10;added HTML template for displaying json data from Accounts Foreign Units&#10;(todo) add extracting json directly from API output" />
   </component>
 </project>

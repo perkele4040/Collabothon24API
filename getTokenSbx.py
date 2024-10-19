@@ -1,7 +1,14 @@
 import json
-
 import requests
 
+"""
+getTokenSbx provides an example of retrieving an access token from Sandbox authentication server 
+using the client_credentials grant type (OAuth 2).
+Function returns the access token - first field of the response from authentication server. 
+
+Arguments:
+cc - object of class ClientCredentials holding a client_id and client_secret.
+"""
 
 def getTokenSbxClientCredentials(cc):
     url = "https://api-sandbox.commerzbank.com/auth/realms/sandbox/protocol/openid-connect/token"
